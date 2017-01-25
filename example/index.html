@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lazy-load</title>
+    <script src="../lazyload.js"></script>
+    <style>
+        body {
+            margin: 0 auto;
+            width: 300px;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <img data-origin="http://img1.imgtn.bdimg.com/it/u=1794894692,1423685501&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img0.imgtn.bdimg.com/it/u=2320677199,2423076609&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=819201812,3553302270&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=2395910632,2735784472&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=1303680113,133301350&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img1.imgtn.bdimg.com/it/u=1794894692,1423685501&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img0.imgtn.bdimg.com/it/u=2320677199,2423076609&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=819201812,3553302270&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=2395910632,2735784472&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=1303680113,133301350&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img1.imgtn.bdimg.com/it/u=1794894692,1423685501&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img0.imgtn.bdimg.com/it/u=2320677199,2423076609&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=819201812,3553302270&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img4.imgtn.bdimg.com/it/u=2395910632,2735784472&fm=23&gp=0.jpg" src="" alt="">
+    <img data-origin="http://img3.imgtn.bdimg.com/it/u=1303680113,133301350&fm=23&gp=0.jpg" src="" alt="">
+
+    <script>
+        var imgs = document.querySelectorAll('img');
+        lazyload(imgs, {
+            effect: 'fadeIn',
+            elapsed: 1000
+        })
+    </script>
+</body>
+
+</html>

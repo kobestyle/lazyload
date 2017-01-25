@@ -1,0 +1,17 @@
+{
+  "name": "lazy-load",
+  "version": "1.0.0",
+  "description": "a pure js pluginfor img lazyload",
+  "main": "lazylaod.min.js",
+  "repository": "git@github.com:kobestyle/lazyload.git",
+  "author": "kobestyle",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "gulp-eslint": "^3.0.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
